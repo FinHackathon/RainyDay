@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+body {
+	font-size: 80%;
+	font-family: "Arial";
+	background-color: rgb(200,200,200);
+	color: rgb(255,255,255);
+	text-align: center;
+	background: url(../images/b.jpg)no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#pageWrap {
+color: rgb(255,255,255);
+	width: 100%;
+	margin: 0;
+	background-color: rgb(255,127,0);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	opacity: 0.9;
+}
+
+#leftPageWrap {
+color: rgb(255,255,255);
+	margin: 0;
+	background-color: rgb(255,127,0);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	opacity: 0.9;
+	width: 50%;
+	margin-left: 25%;
+	float: left;
+}
+
+#twitterPageWrap {
+color: rgb(255,255,255);
+	margin: 0;
+	background-color: rgb(125,125,125);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	opacity: 0.9;
+	width: 20%;
+	margin-left: 75%;
+}
+
+#page {
+	width: 70%;
+	margin: auto;
+}
+
+.section {
+	width: 80%;
+	margin: auto;
+	border-bottom: 10px rgb(255,255,255);
+	-webkit-border-bottom-image:  -webkit-radial-gradient(circle, red, yellow, green);
+    border-bottom-image-slice: 30;
+}
+
+
+.projImgContainer img {
+	width: 150px;
+}
+
+.projImgContainer {
+	margin-top: 10px;
+	display: inline-block;
+	margin: 20px 10px 0 10px;	
+}
+
+.projImgContainer h3 {
+color: rgb(255,255,255);
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	bottom: 10	px;
+
+}
+
+
+#app{
+	height: 400px;
+}
+
+
+
+
+
+#title {
+	color: rgb(255,255,255);
+	font-weight: 200;
+	font-size: 3.5em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+ul {
+color: rgb(255,255,255);
+	width: 570px;
+	padding: 15px;
+	height: 200px;
+	margin: 0px auto 0px auto;
+	border-top: 0px solid #000;
+	border-bottom: 0px solid #000;
+	text-align: center;
+}
+
+li {
+color: rgb(255,255,255);
+	display: inline;
+	margin: 0px 3px;
+}
+
+li a {
+	transition: all .3s;
+	-webkit-transition: all .2s;
+}
+
+li:hover a{
+	color: rgb(90,90,90) !important;
+}
+
+p {
+color: rgb(255,255,255);
+	text-align: center;
+	width: 600px; 
+	margin: 20px auto 20px auto; 
+	font-weight: normal;
+}
+
+a {
+color: rgb(255,255,255);
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+
+}
+
+#headers{
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+	font-size: 150%;
+	font-weight: normal;
+	padding: 20px 18px 5px 18px;
+}
+
+#Team{
+	
+}
+
+#profiles{
+	
+	padding:auto;
+	
+	-webkit-transition: -webkit-transform 0.5s ease;
+	-moz-transition: -moz-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	height:50px;
+	width:50px;
+
+}
+#profiles:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform-origin: top;
+	-moz-transform-origin: top;
+	-o-transform-origin: top;
+	transform-origin: top;
+}
+
+#footer{
+	width: 570px;
+	
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 25%;
+	font-size: 90%;
+	font-weight: normal;
+	float: center;
+
+}
+
+.postBlogLeft{
+	border: 1px solid #ff8800;
+	width: 50%;
+	margin-5left: 15%;
+	margin-top: 10px;
+	float: left;
+}
+.postBlogRight{
+	border: 1px solid #ff8800;
+	width: 50%;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+
+h5, h6{
+	margin-bottom: 0; 
+	padding-bottom: 0; 
+	text-align:center;
+	font-weight: normal;
+}
+
+h6{ 
+	color: #fff; 
+	font-size: 160%;
+	font-family: Helvetica;
+}
+h5{ 
+	color: #eeeeee; 
+	font-size: 130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    display: inline-block;  
+    z-index: 0;
+	color:rgb(255,255,255);
+	height:30px;
+	width:150px;
+	opacity: 0.9;
+	background-color: rgb(255,127,0);
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;	
+	-moz-border-radius: 10px;
+	border-radius: 100px;
+	padding: 1px;
+	margin: 0px 15px;
+	box-shadow: 0px 0px 20px rgba(0,0,0, 0.3);
+	-webkit-transition: -webkit-transform 0.5s ease;
+	-moz-transition: -moz-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+ 
+ .button:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform-origin: top;
+	-moz-transform-origin: top;
+	-o-transform-origin: top;
+	transform-origin: top;
+}
+ 
+.overlay {
+    z-index: 5;
+    background: rgba(0, 0, 0, .50);
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+ 
+.popup {
+    padding: 10px 10px 35px;
+    background: rgba(255,255,255,0.5);
+    z-index: 999;
+    display: none;
+    position: center;
+	overflow: hidden;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.close{
+	color: rgb(255,127,0)
+}
+
+
+
+#contact{
+	float:center;
+	margin-top:25px;
+}
