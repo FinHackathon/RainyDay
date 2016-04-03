@@ -1,7 +1,7 @@
 ###
 # Libs
 ###
-source("./database_require.R")
+source(paste(db_populate_path,"/database_require.R",sep=""))
 
 
 df<-data.frame(rbind(c("Restaurants", paste("Meal, Inexpensive Restaurant", "Meal for 2 People, Mid-range Restaurant, Three-course", "McMeal at McDonalds (or Equivalent Combo Meal)", "Domestic Beer (0.5 liter draught)", "Imported Beer (0.33 liter bottle)", "Cappuccino (regular)", "Coke/Pepsi (0.33 liter bottle)", "Water (0.33 liter bottle)",sep="::")),
