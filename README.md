@@ -4,6 +4,8 @@ A predicitve finance app that utilises weather on the day to create a prediction
 
 Webpage: http://financepredict.azurewebsites.net/
 
+Twitter: https://twitter.com/RainyDay_App
+
 FB:
 
 PowerPoint:
