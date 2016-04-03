@@ -5,6 +5,7 @@ setwd(path.expand("~/skroutz"))
 DbFile <- "./Data/sql-lite/RainyDaySQLite.sqlite"
 csv_path <- "./Data/csv-prototyping"
 original_path <- "./Data/original"
+
 db_populate_path <- "./DB-populate"
 
 source(paste(db_populate_path,"/sqlite-password.R",sep=""))
